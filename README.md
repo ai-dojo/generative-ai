@@ -19,7 +19,7 @@ The AI Dojo is a place for learning about AI and data science through Jupyter no
 
 **Generative AI**: from how language models work to building your own AI assistants. Run proprietary and open LLMs, build Python applications with Retrieval-Augmented Generation (RAG), structured outputs and tool use, and work with vision and speech models.
 
-- **Level**: Advanced
+- **Level**: Intermediate
 - **Prerequisites**: Python programming; basics of deep learning are helpful
 - **Start here**: [📓 Course agenda](notebooks/index/generative-ai.ipynb)
 
