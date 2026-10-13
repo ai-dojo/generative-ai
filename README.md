@@ -22,14 +22,7 @@ The AI Dojo is a place for learning about AI and data science through Jupyter no
 | **Generative AI & Large Language Models**<br>Latest advances in generative AI; working with open large language models | Advanced | 2 days | [📓 Course index](notebooks/index/ai-genai-llm.ipynb) |
 | **Developing Generative AI Assistants**<br>From embeddings and transformers to chatbots with RAG, tool use and agentic patterns, with both proprietary APIs and self-hosted open models | Advanced | 3 days | [📓 Course index](notebooks/index/ai-genai-assistants.ipynb) |
 
-### Precursor courses
-
-The courses build on two courses from [Data Science Learning Paths](https://github.com/point8/data-science-learning-paths), the open source predecessor of the AI Dojo:
-
-- **Machine Learning with Python [MLP]**: [📓 Course index](https://github.com/point8/data-science-learning-paths/blob/main/notebooks/index/mlp2-machine-learning-python-2day.ipynb)
-- **Deep Learning with TensorFlow [DLT]**: [📓 Course index](https://github.com/point8/data-science-learning-paths/blob/main/notebooks/index/dlt2-intro-dl-tensorflow-2day.ipynb)
-
-*Generative AI & Large Language Models* assumes DLT. *Developing Generative AI Assistants* only assumes Python programming.
+*Generative AI & Large Language Models* assumes Python programming and basics of deep learning. *Developing Generative AI Assistants* only assumes Python programming.
 
 ## Setup
 
