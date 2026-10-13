@@ -13,16 +13,15 @@
 
 > **_dōjō_ (道場, Japanese) - a place for immersive learning. Literally, a place to learn the path (_dō_).**
 
-The AI Dojo is a place for learning about AI and data science through Jupyter notebooks: introductory material, code demos, and interactive coding exercises. This repository contains two courses on generative AI.
+The AI Dojo is a place for learning about AI and data science through Jupyter notebooks: introductory material, code demos, and interactive coding exercises. This repository contains a course on generative AI.
 
-## Courses
+## Course
 
-| Course | Level | Duration | Start here |
-|--------|-------|----------|------------|
-| **Generative AI & Large Language Models**<br>Latest advances in generative AI; working with open large language models | Advanced | 2 days | [📓 Course index](notebooks/index/ai-genai-llm.ipynb) |
-| **Developing Generative AI Assistants**<br>From embeddings and transformers to chatbots with RAG, tool use and agentic patterns, with both proprietary APIs and self-hosted open models | Advanced | 3 days | [📓 Course index](notebooks/index/ai-genai-assistants.ipynb) |
+**Generative AI**: from how language models work to building your own AI assistants. Run proprietary and open LLMs, build Python applications with Retrieval-Augmented Generation (RAG), structured outputs and tool use, and work with vision and speech models.
 
-*Generative AI & Large Language Models* assumes Python programming and basics of deep learning. *Developing Generative AI Assistants* only assumes Python programming.
+- **Level**: Advanced
+- **Prerequisites**: Python programming; basics of deep learning are helpful
+- **Start here**: [📓 Course agenda](notebooks/index/generative-ai.ipynb)
 
 ## Setup
 
