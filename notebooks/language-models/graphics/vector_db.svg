@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620" font-family="Helvetica, Arial, sans-serif">
+  <title>Vector database: write and query paths</title>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F3E46"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E3584D"/>
+    </marker>
+    <marker id="arrGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7A7D80"/>
+    </marker>
+  </defs>
+  <rect width="800" height="620" fill="#FFFFFF"/>
+
+  <!-- ===== Lanes ===== -->
+  <rect x="10" y="10" width="535" height="200" rx="10" fill="none" stroke="#D0C1A5" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="24" y="34" font-size="12" font-weight="bold" fill="#7A7D80" letter-spacing="1">WRITE PATH · INDEXING DOCUMENTS</text>
+  <rect x="10" y="230" width="535" height="380" rx="10" fill="none" stroke="#D0C1A5" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="24" y="254" font-size="12" font-weight="bold" fill="#7A7D80" letter-spacing="1">QUERY PATH · RETRIEVAL + GENERATION</text>
+
+  <!-- ===== Vector database ===== -->
+  <rect x="555" y="10" width="235" height="600" rx="12" fill="#F7F7F7" stroke="#2F3E46" stroke-width="1.5"/>
+  <text x="672" y="38" font-size="16" font-weight="bold" fill="#2F3E46" text-anchor="middle">Vector database</text>
+
+  <!-- (5) index table -->
+  <text x="590" y="66" font-size="12" font-weight="bold" fill="#2F3E46">Index of stored records</text>
+  <rect x="567" y="76" width="211" height="148" fill="#FFFFFF" stroke="#7A7D80" stroke-width="1"/>
+  <rect x="567" y="76" width="211" height="20" fill="#D0C1A5"/>
+  <text x="575" y="90" font-size="11" font-weight="bold" fill="#403931">vector</text>
+  <text x="675" y="90" font-size="11" font-weight="bold" fill="#403931">chunk · metadata</text>
+  <line x1="667" y1="76" x2="667" y2="224" stroke="#7A7D80" stroke-width="0.8"/>
+  <g stroke="#D9D9D9" stroke-width="0.8">
+    <line x1="567" y1="122" x2="778" y2="122"/>
+    <line x1="567" y1="148" x2="778" y2="148"/>
+    <line x1="567" y1="174" x2="778" y2="174"/>
+    <line x1="567" y1="200" x2="778" y2="200"/>
+  </g>
+  <g font-size="11" fill="#2F3E46">
+    <text x="575" y="113">[0.12, −0.83, …]</text><text x="675" y="113">chunk 1 · p.3</text>
+    <text x="575" y="139">[0.47, 0.05, …]</text><text x="675" y="139">chunk 2 · p.3</text>
+    <text x="575" y="165">[−0.31, 0.66, …]</text><text x="675" y="165">chunk 3 · p.7</text>
+    <text x="575" y="191">[0.09, −0.77, …]</text><text x="675" y="191">chunk 4 · p.9</text>
+    <text x="575" y="216" fill="#7A7D80">…</text><text x="675" y="216" fill="#7A7D80">…</text>
+  </g>
+
+  <!-- (8) similarity search panel -->
+  <rect x="567" y="250" width="211" height="230" rx="6" fill="#FFFFFF" stroke="#7A7D80" stroke-width="1"/>
+  <text x="596" y="272" font-size="12" font-weight="bold" fill="#2F3E46">Similarity search</text>
+  <text x="596" y="287" font-size="10.5" fill="#7A7D80">nearest neighbours (e.g. ANN)</text>
+  <!-- stored vectors -->
+  <g fill="#B5B8BA">
+    <circle cx="588" cy="318" r="4"/><circle cx="625" cy="310" r="4"/><circle cx="718" cy="306" r="4"/>
+    <circle cx="760" cy="306" r="4"/><circle cx="738" cy="322" r="4"/><circle cx="598" cy="398" r="4"/>
+    <circle cx="770" cy="380" r="4"/><circle cx="600" cy="425" r="4"/><circle cx="625" cy="438" r="4"/>
+    <circle cx="652" cy="440" r="4"/><circle cx="702" cy="444" r="4"/><circle cx="745" cy="440" r="4"/>
+    <circle cx="760" cy="420" r="4"/><circle cx="612" cy="330" r="4"/>
+  </g>
+  <!-- neighbourhood -->
+  <circle cx="672" cy="365" r="40" fill="none" stroke="#F2B66D" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <g stroke="#6CA0A3" stroke-width="1.3">
+    <line x1="672" y1="365" x2="647" y2="346"/>
+    <line x1="672" y1="365" x2="698" y2="351"/>
+    <line x1="672" y1="365" x2="684" y2="393"/>
+  </g>
+  <g fill="#6CA0A3">
+    <circle cx="647" cy="346" r="5"/><circle cx="698" cy="351" r="5"/><circle cx="684" cy="393" r="5"/>
+  </g>
+  <path d="M672,357 L680,365 L672,373 L664,365 Z" fill="#E3584D"/>
+  <!-- legend -->
+  <g font-size="10" fill="#2F3E46">
+    <path d="M578,463 L583,468 L578,473 L573,468 Z" fill="#E3584D"/><text x="588" y="472">query</text>
+    <circle cx="630" cy="468" r="4" fill="#6CA0A3"/><text x="638" y="472">top-k (k = 3)</text>
+    <circle cx="715" cy="468" r="4" fill="#B5B8BA"/><text x="723" y="472">stored</text>
+  </g>
+
+  <!-- ===== Write path row ===== -->
+  <!-- (1) documents -->
+  <g stroke="#7A7D80" stroke-width="1.2" fill="#FFFFFF">
+    <rect x="44" y="80" width="42" height="54" rx="2"/>
+    <rect x="37" y="87" width="42" height="54" rx="2"/>
+    <rect x="30" y="94" width="42" height="54" rx="2"/>
+  </g>
+  <g stroke="#D0C1A5" stroke-width="2">
+    <line x1="37" y1="106" x2="65" y2="106"/><line x1="37" y1="114" x2="65" y2="114"/>
+    <line x1="37" y1="122" x2="65" y2="122"/><line x1="37" y1="130" x2="56" y2="130"/>
+  </g>
+  <text x="58" y="168" font-size="12" font-weight="bold" fill="#2F3E46" text-anchor="middle">Documents</text>
+  <text x="58" y="183" font-size="11" fill="#7A7D80" text-anchor="middle">PDF, wiki, …</text>
+  <line x1="94" y1="115" x2="127" y2="115" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- (2) chunking -->
+  <rect x="130" y="85" width="105" height="60" rx="8" fill="#F0F0F0" stroke="#7A7D80" stroke-width="1"/>
+  <text x="182" y="104" font-size="13" font-weight="bold" fill="#2F3E46" text-anchor="middle">Chunking</text>
+  <rect x="152" y="113" width="60" height="6" rx="2" fill="#6CA0A3"/>
+  <rect x="152" y="122" width="60" height="6" rx="2" fill="#D0C1A5"/>
+  <rect x="152" y="131" width="60" height="6" rx="2" fill="#F2B66D"/>
+  <text x="182" y="168" font-size="11" fill="#7A7D80" text-anchor="middle">split into passages</text>
+  <line x1="235" y1="115" x2="257" y2="115" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- (3) embedding model -->
+  <rect x="260" y="85" width="110" height="60" rx="8" fill="#6CA0A3"/>
+  <text x="315" y="111" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Embedding</text>
+  <text x="315" y="129" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">model</text>
+  <text x="315" y="168" font-size="11" fill="#7A7D80" text-anchor="middle">text → vector</text>
+  <line x1="370" y1="115" x2="392" y2="115" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- (4) vector + metadata -->
+  <rect x="395" y="82" width="135" height="66" rx="8" fill="#FFFFFF" stroke="#6CA0A3" stroke-width="1.5"/>
+  <text x="407" y="98" font-size="9.5" font-weight="bold" fill="#3F7276" letter-spacing="0.8">VECTOR</text>
+  <text x="407" y="113" font-size="12" fill="#2F3E46">[0.12, −0.83, …]</text>
+  <text x="407" y="128" font-size="9.5" font-weight="bold" fill="#3F7276" letter-spacing="0.8">METADATA</text>
+  <text x="407" y="142" font-size="11" fill="#2F3E46">hr.pdf · p.3 · chunk 1</text>
+  <text x="462" y="168" font-size="11" fill="#7A7D80" text-anchor="middle">one record per chunk</text>
+  <line x1="530" y1="115" x2="564" y2="115" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- ===== Query path row 1 ===== -->
+  <!-- (6) query -->
+  <rect x="22" y="335" width="150" height="60" rx="8" fill="#F0F0F0" stroke="#7A7D80" stroke-width="1"/>
+  <text x="36" y="352" font-size="9.5" font-weight="bold" fill="#7A7D80" letter-spacing="0.8">USER QUESTION</text>
+  <text x="36" y="370" font-size="12.5" fill="#2F3E46">“How many vacation</text>
+  <text x="36" y="386" font-size="12.5" fill="#2F3E46">days do I get?”</text>
+  <line x1="172" y1="365" x2="187" y2="365" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- (7) embedding model -->
+  <rect x="190" y="335" width="110" height="60" rx="8" fill="#6CA0A3"/>
+  <text x="245" y="361" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Embedding</text>
+  <text x="245" y="379" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">model</text>
+  <text x="245" y="413" font-size="11" fill="#7A7D80" text-anchor="middle">same model as in step 3</text>
+  <line x1="300" y1="365" x2="327" y2="365" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- query vector -->
+  <rect x="330" y="340" width="122" height="50" rx="8" fill="#FFFFFF" stroke="#E3584D" stroke-width="1.5"/>
+  <text x="391" y="358" font-size="9.5" font-weight="bold" fill="#E3584D" text-anchor="middle" letter-spacing="0.8">QUERY VECTOR</text>
+  <text x="391" y="378" font-size="12" fill="#2F3E46" text-anchor="middle">[0.10, −0.79, …]</text>
+  <line x1="452" y1="365" x2="660" y2="365" stroke="#E3584D" stroke-width="1.8" marker-end="url(#arrRed)"/>
+
+  <!-- ===== Query path row 2 (right to left) ===== -->
+  <path d="M672,480 V540 H533" fill="none" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- (9) retrieved chunks -->
+  <rect x="330" y="498" width="200" height="84" rx="8" fill="#FFFFFF" stroke="#6CA0A3" stroke-width="1.5"/>
+  <text x="344" y="516" font-size="9.5" font-weight="bold" fill="#3F7276" letter-spacing="0.8">RETRIEVED CHUNKS (TOP-K)</text>
+  <g font-size="11.5" fill="#2F3E46">
+    <text x="344" y="536">“Staff get 28 vacation days…”</text>
+    <text x="344" y="553">“Requests go through HR…”</text>
+    <text x="344" y="570">“Unused days carry over…”</text>
+  </g>
+  <line x1="330" y1="540" x2="303" y2="540" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- (10) LLM -->
+  <rect x="190" y="510" width="110" height="60" rx="8" fill="#2F3E46"/>
+  <text x="245" y="537" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">LLM</text>
+  <text x="245" y="556" font-size="11" fill="#D0C1A5" text-anchor="middle">question + chunks</text>
+  <line x1="190" y1="540" x2="163" y2="540" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- answer -->
+  <rect x="22" y="505" width="138" height="70" rx="8" fill="#FCEBD0" stroke="#F2B66D" stroke-width="1.5"/>
+  <text x="36" y="523" font-size="9.5" font-weight="bold" fill="#403931" letter-spacing="0.8">ANSWER</text>
+  <text x="36" y="544" font-size="12.5" fill="#2F3E46">“You get 28 days</text>
+  <text x="36" y="561" font-size="12.5" fill="#2F3E46">per year.”</text>
+
+  <!-- question also goes into the prompt -->
+  <path d="M130,395 V465 H225 V507" fill="none" stroke="#7A7D80" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#arrGray)"/>
+  <text x="140" y="458" font-size="11" fill="#7A7D80">question</text>
+
+  <!-- ===== Step numbers ===== -->
+  <g font-size="11" font-weight="bold" fill="#403931" text-anchor="middle">
+    <circle cx="28" cy="80" r="10" fill="#F2B66D"/><text x="28" y="84">1</text>
+    <circle cx="130" cy="85" r="10" fill="#F2B66D"/><text x="130" y="89">2</text>
+    <circle cx="260" cy="85" r="10" fill="#F2B66D"/><text x="260" y="89">3</text>
+    <circle cx="395" cy="82" r="10" fill="#F2B66D"/><text x="395" y="86">4</text>
+    <circle cx="577" cy="62" r="10" fill="#F2B66D"/><text x="577" y="66">5</text>
+    <circle cx="22" cy="335" r="10" fill="#F2B66D"/><text x="22" y="339">6</text>
+    <circle cx="190" cy="335" r="10" fill="#F2B66D"/><text x="190" y="339">7</text>
+    <circle cx="583" cy="268" r="10" fill="#F2B66D"/><text x="583" y="272">8</text>
+    <circle cx="330" cy="498" r="10" fill="#F2B66D"/><text x="330" y="502">9</text>
+    <circle cx="190" cy="510" r="10" fill="#F2B66D"/><text x="190" y="514">10</text>
+  </g>
+</svg>

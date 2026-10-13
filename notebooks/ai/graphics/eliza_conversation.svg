@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="450" fill="#FFFFFF"/>
+
+  <!-- terminal window -->
+  <rect x="20" y="20" width="760" height="410" rx="12" fill="#2F3E46"/>
+  <path d="M20,52 L20,32 Q20,20 32,20 L768,20 Q780,20 780,32 L780,52 Z" fill="#403931"/>
+  <circle cx="42" cy="36" r="6" fill="#E3584D"/>
+  <circle cx="62" cy="36" r="6" fill="#F2B66D"/>
+  <circle cx="82" cy="36" r="6" fill="#6CA0A3"/>
+  <text x="400" y="41" font-size="14" fill="#D0C1A5" text-anchor="middle">ELIZA — a conversation with the 1966 “therapist” program</text>
+
+  <g font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="16">
+    <!-- 1 -->
+    <text x="50" y="90" fill="#F2B66D" font-weight="bold">YOU:</text>
+    <text x="125" y="90" fill="#F2B66D">I have been sleeping bad</text>
+    <text x="50" y="116" fill="#A7D7C5" font-weight="bold">ELIZA:</text>
+    <text x="125" y="116" fill="#A7D7C5">It is nice to be chatting with you.</text>
+    <!-- 2 -->
+    <text x="50" y="152" fill="#F2B66D" font-weight="bold">YOU:</text>
+    <text x="125" y="152" fill="#F2B66D">How can I sleep better?</text>
+    <text x="50" y="178" fill="#A7D7C5" font-weight="bold">ELIZA:</text>
+    <text x="125" y="178" fill="#A7D7C5">I'm not convinced that you truly want to sleep better?</text>
+    <!-- 3 -->
+    <text x="50" y="214" fill="#F2B66D" font-weight="bold">YOU:</text>
+    <text x="125" y="214" fill="#F2B66D">Why are you saying that?</text>
+    <text x="50" y="240" fill="#A7D7C5" font-weight="bold">ELIZA:</text>
+    <text x="125" y="240" fill="#A7D7C5">Why are you interested in whether or not I am saying that?</text>
+    <!-- 4 -->
+    <text x="50" y="276" fill="#F2B66D" font-weight="bold">YOU:</text>
+    <text x="125" y="276" fill="#F2B66D">You are not a good therapist</text>
+    <text x="50" y="302" fill="#A7D7C5" font-weight="bold">ELIZA:</text>
+    <text x="125" y="302" fill="#A7D7C5">What makes you think I am not a good therapist?</text>
+    <!-- 5 -->
+    <text x="50" y="338" fill="#F2B66D" font-weight="bold">YOU:</text>
+    <text x="125" y="338" fill="#F2B66D">You just mirror back my questions.</text>
+    <text x="50" y="364" fill="#A7D7C5" font-weight="bold">ELIZA:</text>
+    <text x="125" y="364" fill="#A7D7C5">We were discussing you, not me.</text>
+    <!-- prompt -->
+    <text x="50" y="400" fill="#F2B66D" font-weight="bold">YOU:</text>
+  </g>
+  <rect x="125" y="386" width="10" height="18" fill="#F2B66D"/>
+</svg>

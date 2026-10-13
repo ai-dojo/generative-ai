@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="99.999924mm"
+   height="60.241909mm"
+   viewBox="0 0 99.999923 60.241909"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="transformers_intuition.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77607152"
+     inkscape:cx="364.65711"
+     inkscape:cy="194.5697"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g20922"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path23799" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path23793" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect23708"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path23799-6" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect23708-6"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.4563417,-42.642466)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.494px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13735"
+       x="7.3564687"
+       y="101.74426"
+       id="text2168"><tspan
+         sodipodi:role="line"
+         id="tspan2166"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.13735"
+         x="7.3564687"
+         y="101.74426">[&quot;She&quot;, &quot;was&quot;, &quot;talking&quot;, &quot;to&quot;]</tspan></text>
+    <g
+       id="g20922"
+       transform="translate(13.57496,-7.7406932)">
+      <rect
+         style="fill:#cce7cf;fill-opacity:1;stroke-width:0.3068"
+         id="rect5904"
+         width="40.897385"
+         height="23.497654"
+         x="24.43269"
+         y="68.483673"
+         ry="1.1791819" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.494px;line-height:1.25;font-family:sans-serif;fill:#cce7cf;fill-opacity:1;stroke:none;stroke-width:0.13735"
+         x="30.008942"
+         y="82.193497"
+         id="text20243"><tspan
+           sodipodi:role="line"
+           id="tspan20241"
+           style="fill:#225f28;fill-opacity:1;stroke-width:0.13735"
+           x="30.008942"
+           y="82.193497">Transformer</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.494px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13735"
+       x="53.509594"
+       y="46.62347"
+       id="text22136"><tspan
+         sodipodi:role="line"
+         id="tspan22134"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.13735"
+         x="53.509594"
+         y="46.62347">her</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.25956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 58.326686,59.135768 V 48.711918"
+       id="path23706"
+       inkscape:path-effect="#path-effect23708"
+       inkscape:original-d="m 58.326686,59.135768 c 1.4e-4,-3.474479 1.4e-4,-6.949095 0,-10.42385" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.25956;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-2)"
+       d="M 58.498245,95.826548 V 85.402703"
+       id="path23706-4"
+       inkscape:path-effect="#path-effect23708-6"
+       inkscape:original-d="m 58.498245,95.826548 c 1.4e-4,-3.474477 1.4e-4,-6.949093 0,-10.423845" />
+  </g>
+</svg>

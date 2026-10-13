@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" font-family="Helvetica, Arial, sans-serif">
+  <title>Retrieval-augmented language model</title>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F3E46"/>
+    </marker>
+  </defs>
+  <rect width="800" height="440" fill="#FFFFFF"/>
+
+  <!-- Question -->
+  <text x="20" y="30" font-size="12" font-weight="bold" fill="#7A7D80" letter-spacing="1">QUESTION</text>
+  <rect x="20" y="40" width="300" height="64" rx="8" fill="#F0F0F0" stroke="#7A7D80" stroke-width="1.2"/>
+  <text x="36" y="67" font-size="15" fill="#2F3E46">When was the transformer</text>
+  <text x="36" y="89" font-size="15" fill="#2F3E46">architecture introduced?</text>
+
+  <!-- Generator -->
+  <rect x="400" y="40" width="190" height="64" rx="10" fill="#2F3E46"/>
+  <text x="495" y="68" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Generator</text>
+  <text x="495" y="89" font-size="13" fill="#D0C1A5" text-anchor="middle">(language model)</text>
+
+  <!-- Answer -->
+  <text x="640" y="30" font-size="12" font-weight="bold" fill="#7A7D80" letter-spacing="1">ANSWER</text>
+  <rect x="640" y="40" width="140" height="64" rx="8" fill="#FCEBD0" stroke="#F2B66D" stroke-width="1.5"/>
+  <text x="710" y="74" font-size="24" font-weight="bold" fill="#403931" text-anchor="middle">2017</text>
+  <text x="710" y="93" font-size="11" fill="#7A7D80" text-anchor="middle">source: passage [1]</text>
+
+  <!-- Question -> Generator, Generator -> Answer -->
+  <line x1="320" y1="72" x2="397" y2="72" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <line x1="590" y1="72" x2="637" y2="72" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- Retriever -->
+  <line x1="170" y1="104" x2="170" y2="147" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="180" y="131" font-size="11" fill="#7A7D80">search</text>
+  <rect x="90" y="150" width="160" height="50" rx="10" fill="#6CA0A3"/>
+  <text x="170" y="181" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Retriever</text>
+
+  <!-- Document store (cylinder) -->
+  <line x1="170" y1="200" x2="170" y2="235" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <path d="M90,252 V338 A80,14 0 0 0 250,338 V252" fill="#D0C1A5" stroke="#403931" stroke-width="1.4"/>
+  <ellipse cx="170" cy="252" rx="80" ry="14" fill="#E4DACA" stroke="#403931" stroke-width="1.4"/>
+  <text x="170" y="296" font-size="14" font-weight="bold" fill="#403931" text-anchor="middle">Document store</text>
+  <text x="170" y="315" font-size="12" fill="#403931" text-anchor="middle">(external memory)</text>
+
+  <!-- Store -> Retrieved passage -->
+  <line x1="252" y1="300" x2="327" y2="300" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="290" y="291" font-size="11" fill="#7A7D80" text-anchor="middle">best match</text>
+
+  <!-- Retrieved passage -->
+  <rect x="330" y="245" width="290" height="105" rx="8" fill="#FFFFFF" stroke="#6CA0A3" stroke-width="1.6"/>
+  <text x="346" y="268" font-size="12" font-weight="bold" fill="#6CA0A3">RETRIEVED PASSAGE [1]</text>
+  <text x="346" y="292" font-size="13" fill="#2F3E46">The Transformer architecture was first</text>
+  <text x="346" y="311" font-size="13" fill="#2F3E46">introduced in 2017 in the paper</text>
+  <text x="346" y="330" font-size="13" fill="#2F3E46">“Attention Is All You Need”.</text>
+
+  <!-- Passage -> Generator -->
+  <line x1="475" y1="245" x2="475" y2="107" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="485" y="172" font-size="11" fill="#7A7D80">retrieved context</text>
+  <text x="485" y="187" font-size="11" fill="#7A7D80">is added to the prompt</text>
+
+  <!-- Notes -->
+  <circle cx="30" cy="389" r="5" fill="#E3584D"/>
+  <text x="44" y="393" font-size="13" font-weight="bold" fill="#2F3E46">Knowledge lives outside the model</text>
+  <text x="44" y="412" font-size="12" fill="#7A7D80">add or update documents without retraining</text>
+
+  <circle cx="340" cy="389" r="5" fill="#E3584D"/>
+  <text x="354" y="393" font-size="13" font-weight="bold" fill="#2F3E46">Answers are traceable</text>
+  <text x="354" y="412" font-size="12" fill="#7A7D80">the generator can cite the passage it used</text>
+</svg>

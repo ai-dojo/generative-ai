@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" font-family="Helvetica, Arial, sans-serif">
+  <title>Fine-tuning overview</title>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F3E46"/>
+    </marker>
+  </defs>
+  <rect width="800" height="360" fill="#FFFFFF"/>
+
+  <!-- Labeled dataset card -->
+  <text x="400" y="26" font-size="12" font-weight="bold" fill="#7A7D80" letter-spacing="1" text-anchor="middle">TASK-SPECIFIC LABELED EXAMPLES</text>
+  <rect x="230" y="36" width="340" height="182" rx="8" fill="#FFFFFF" stroke="#7A7D80" stroke-width="1.2"/>
+  <path d="M230,44 A8,8 0 0 1 238,36 H562 A8,8 0 0 1 570,44 V62 H230 Z" fill="#F0F0F0"/>
+  <line x1="230" y1="62" x2="570" y2="62" stroke="#7A7D80" stroke-width="1"/>
+  <text x="246" y="54" font-size="12" font-weight="bold" fill="#2F3E46">Text</text>
+  <text x="508" y="54" font-size="12" font-weight="bold" fill="#2F3E46" text-anchor="middle">Label</text>
+
+  <g font-size="13" fill="#2F3E46">
+    <text x="246" y="86">The battery lasts all day.</text>
+    <text x="246" y="112">Screen cracked after a week.</text>
+    <text x="246" y="138">Arrived on time, works fine.</text>
+    <text x="246" y="164">Support never replied.</text>
+    <text x="246" y="194" fill="#7A7D80">…</text>
+  </g>
+  <g font-size="11" font-weight="bold" text-anchor="middle">
+    <rect x="470" y="73" width="76" height="18" rx="9" fill="#DCE9EA"/>
+    <text x="508" y="86" fill="#3F7276">positive</text>
+    <rect x="470" y="99" width="76" height="18" rx="9" fill="#F9DAD7"/>
+    <text x="508" y="112" fill="#B5372D">negative</text>
+    <rect x="470" y="125" width="76" height="18" rx="9" fill="#DCE9EA"/>
+    <text x="508" y="138" fill="#3F7276">positive</text>
+    <rect x="470" y="151" width="76" height="18" rx="9" fill="#F9DAD7"/>
+    <text x="508" y="164" fill="#B5372D">negative</text>
+    <text x="508" y="194" fill="#7A7D80" font-weight="normal" font-size="13">…</text>
+  </g>
+
+  <!-- dataset -> training -->
+  <line x1="400" y1="218" x2="400" y2="252" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- Pre-trained model -->
+  <rect x="30" y="250" width="160" height="64" rx="12" fill="#6CA0A3"/>
+  <text x="110" y="288" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Pre-trained LLM</text>
+  <text x="110" y="336" font-size="12" fill="#7A7D80" text-anchor="middle">general language knowledge</text>
+
+  <!-- Training step -->
+  <line x1="190" y1="282" x2="297" y2="282" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="300" y="255" width="200" height="54" rx="10" fill="#F2B66D"/>
+  <text x="400" y="279" font-size="15" font-weight="bold" fill="#403931" text-anchor="middle">Supervised fine-tuning</text>
+  <text x="400" y="297" font-size="11" fill="#403931" text-anchor="middle">updates the model's weights</text>
+  <line x1="500" y1="282" x2="607" y2="282" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- Fine-tuned model -->
+  <rect x="610" y="250" width="160" height="64" rx="12" fill="#2F3E46"/>
+  <text x="690" y="288" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fine-tuned LLM</text>
+  <text x="690" y="336" font-size="12" fill="#7A7D80" text-anchor="middle">specialized: predicts the labels</text>
+</svg>

@@ -1,0 +1,60 @@
+[project]
+name = "ai-dojo"
+version = "0.1.0"
+description = "AI Dojo: hands-on training material on generative AI, large language models and AI assistants"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE-CODE"]
+authors = [
+    { name = "Christian Staudt" },
+    { name = "Katharina Rasch" },
+]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    # Jupyter
+    "jupyterlab>=4",
+    "ipywidgets",
+    # Data science
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "pillow",
+    "requests",
+    "tqdm",
+    "rich",
+    "pydantic",
+    # Classic NLP and embeddings
+    "nltk",
+    "gensim",
+    "tensorflow>=2.19,<2.20",
+    "tensorflow-datasets",
+    # newer versions are built for protobuf 6, but tensorflow 2.19 requires protobuf 5
+    "tensorflow-metadata<1.18",
+    # LLM APIs and frameworks
+    "ollama",
+    "openai",
+    "huggingface-hub",
+    "llama-index-core",
+    "llama-index-llms-ollama",
+    "llama-index-llms-anthropic",
+    "llama-index-embeddings-ollama",
+    # Evaluation
+    "evaluate",
+    "jiwer",
+    # Speech
+    "faster-whisper",
+    "ipywebrtc",
+    "kokoro-onnx",
+    "soundfile",
+]
+
+[dependency-groups]
+dev = [
+    "nbstripout",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"

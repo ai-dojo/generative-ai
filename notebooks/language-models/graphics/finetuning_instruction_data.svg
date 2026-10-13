@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460" font-family="Helvetica, Arial, sans-serif">
+  <title>Instruction fine-tuning data</title>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F3E46"/>
+    </marker>
+  </defs>
+  <rect width="800" height="460" fill="#FFFFFF"/>
+
+  <text x="20" y="28" font-size="12" font-weight="bold" fill="#7A7D80" letter-spacing="1">INSTRUCTION DATASET: PROMPT → COMPLETION PAIRS</text>
+  <text x="780" y="28" font-size="12" fill="#7A7D80" text-anchor="end">thousands of pairs, many tasks</text>
+
+  <!-- Card 1: summarization -->
+  <rect x="20" y="42" width="370" height="232" rx="8" fill="#FFFFFF" stroke="#7A7D80" stroke-width="1.2"/>
+  <path d="M20,50 A8,8 0 0 1 28,42 H382 A8,8 0 0 1 390,50 V70 H20 Z" fill="#D0C1A5"/>
+  <text x="34" y="61" font-size="12" font-weight="bold" fill="#403931">Example 1 · Summarization</text>
+
+  <rect x="32" y="80" width="346" height="104" rx="4" fill="#F0F0F0"/>
+  <rect x="32" y="80" width="4" height="104" fill="#6CA0A3"/>
+  <text x="46" y="97" font-size="10.5" font-weight="bold" fill="#3F7276" letter-spacing="1">PROMPT</text>
+  <text x="46" y="117" font-size="13" font-weight="bold" fill="#2F3E46">Summarize the following text:</text>
+  <g font-size="12.5" fill="#2F3E46">
+    <text x="46" y="136">The meeting reviewed the Q3 budget, approved</text>
+    <text x="46" y="154">two new engineering hires and moved the</text>
+    <text x="46" y="172">product launch from October to November.</text>
+  </g>
+
+  <rect x="32" y="192" width="346" height="70" rx="4" fill="#FCEBD0"/>
+  <rect x="32" y="192" width="4" height="70" fill="#F2B66D"/>
+  <text x="46" y="209" font-size="10.5" font-weight="bold" fill="#403931" letter-spacing="1">COMPLETION</text>
+  <g font-size="12.5" fill="#2F3E46">
+    <text x="46" y="229">Q3 budget reviewed, two engineering hires</text>
+    <text x="46" y="247">approved, launch moved to November.</text>
+  </g>
+
+  <!-- Card 2: translation -->
+  <rect x="410" y="42" width="370" height="232" rx="8" fill="#FFFFFF" stroke="#7A7D80" stroke-width="1.2"/>
+  <path d="M410,50 A8,8 0 0 1 418,42 H772 A8,8 0 0 1 780,50 V70 H410 Z" fill="#D0C1A5"/>
+  <text x="424" y="61" font-size="12" font-weight="bold" fill="#403931">Example 2 · Translation</text>
+
+  <rect x="422" y="80" width="346" height="104" rx="4" fill="#F0F0F0"/>
+  <rect x="422" y="80" width="4" height="104" fill="#6CA0A3"/>
+  <text x="436" y="97" font-size="10.5" font-weight="bold" fill="#3F7276" letter-spacing="1">PROMPT</text>
+  <text x="436" y="117" font-size="13" font-weight="bold" fill="#2F3E46">Translate this sentence to German:</text>
+  <text x="436" y="136" font-size="12.5" fill="#2F3E46">The weather is nice today.</text>
+
+  <rect x="422" y="192" width="346" height="70" rx="4" fill="#FCEBD0"/>
+  <rect x="422" y="192" width="4" height="70" fill="#F2B66D"/>
+  <text x="436" y="209" font-size="10.5" font-weight="bold" fill="#403931" letter-spacing="1">COMPLETION</text>
+  <text x="436" y="229" font-size="12.5" fill="#2F3E46">Das Wetter ist heute schön.</text>
+
+  <!-- cards -> training -->
+  <path d="M205,274 C205,310 330,305 382,343" fill="none" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <path d="M595,274 C595,310 470,305 418,343" fill="none" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- Bottom row -->
+  <rect x="30" y="340" width="160" height="64" rx="12" fill="#6CA0A3"/>
+  <text x="110" y="378" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Pre-trained LLM</text>
+  <text x="110" y="426" font-size="12" fill="#7A7D80" text-anchor="middle">continues text</text>
+
+  <line x1="190" y1="372" x2="297" y2="372" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+  <rect x="300" y="345" width="200" height="54" rx="10" fill="#F2B66D"/>
+  <text x="400" y="369" font-size="15" font-weight="bold" fill="#403931" text-anchor="middle">Instruction fine-tuning</text>
+  <text x="400" y="387" font-size="11" fill="#403931" text-anchor="middle">learn to produce the completion</text>
+  <line x1="500" y1="372" x2="607" y2="372" stroke="#2F3E46" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <rect x="610" y="340" width="160" height="64" rx="12" fill="#2F3E46"/>
+  <text x="690" y="378" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fine-tuned LLM</text>
+  <text x="690" y="426" font-size="12" fill="#7A7D80" text-anchor="middle">follows instructions</text>
+</svg>

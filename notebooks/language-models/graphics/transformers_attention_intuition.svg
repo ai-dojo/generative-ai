@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="223.49806mm"
+   height="55.469784mm"
+   viewBox="0 0 223.49806 55.469783"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="transformers_attention_intuition.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="false"
+     fit-margin-top="10"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="10"
+     inkscape:zoom="0.7760715"
+     inkscape:cx="391.71648"
+     inkscape:cy="456.14354"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="marker113357"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path113355" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path113082" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path113088" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.35882832,-127.13695)">
+    <g
+       id="g111478"
+       transform="translate(-1.930501,-29.238031)">
+      <rect
+         style="fill:#e41a1c;fill-opacity:1;stroke:none;stroke-width:0.624999"
+         id="rect103287"
+         width="21.90073"
+         height="13.448972"
+         x="1.5716727"
+         y="166.37498" />
+      <rect
+         style="fill:#377eb8;fill-opacity:1;stroke:none;stroke-width:0.627398"
+         id="rect103287-5"
+         width="22.069181"
+         height="13.448972"
+         x="25.722479"
+         y="166.37498" />
+      <rect
+         style="fill:#377eb8;fill-opacity:1;stroke:none;stroke-width:0.96131"
+         id="rect103287-7"
+         width="51.811611"
+         height="13.448972"
+         x="173.25812"
+         y="166.37498" />
+      <rect
+         style="fill:#984ea3;fill-opacity:1;stroke:none;stroke-width:0.624999"
+         id="rect103287-4"
+         width="21.90073"
+         height="13.448972"
+         x="50.966663"
+         y="166.37498" />
+      <rect
+         style="fill:#ff7f00;fill-opacity:1;stroke:none;stroke-width:1.13992"
+         id="rect103287-1"
+         width="72.852631"
+         height="13.448972"
+         x="77.100731"
+         y="166.37498" />
+      <rect
+         style="fill:#4daf4a;fill-opacity:1;stroke:none;stroke-width:0.580515"
+         id="rect103287-88"
+         width="18.894131"
+         height="13.448972"
+         x="154.36398"
+         y="166.37498" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="1.8894386"
+         y="175.83832"
+         id="text2498-4"><tspan
+           id="tspan2496-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+           x="1.8894386"
+           y="175.83832"
+           sodipodi:role="line">Ich bin mit dem Fahrrad hingefahren</tspan></text>
+    </g>
+    <g
+       id="g111468"
+       transform="translate(-46.847976,17.45069)">
+      <rect
+         style="fill:#e41a1c;fill-opacity:1;stroke:none;stroke-width:0.46132"
+         id="rect103287-8"
+         width="11.931781"
+         height="13.448972"
+         x="46.489147"
+         y="141.70708" />
+      <rect
+         style="fill:#ff7f00;fill-opacity:1;stroke:none;stroke-width:0.697419"
+         id="rect103287-85"
+         width="27.270132"
+         height="13.448972"
+         x="150.05074"
+         y="141.70708" />
+      <rect
+         style="fill:#377eb8;fill-opacity:1;stroke:none;stroke-width:0.683359"
+         id="rect103287-9"
+         width="26.181719"
+         height="13.448972"
+         x="61.54187"
+         y="141.70708" />
+      <rect
+         style="fill:#4daf4a;fill-opacity:1;stroke:none;stroke-width:0.77362"
+         id="rect103287-75"
+         width="33.554836"
+         height="13.448972"
+         x="93.651405"
+         y="141.70708" />
+      <rect
+         style="fill:#984ea3;fill-opacity:1;stroke:none;stroke-width:0.538387"
+         id="rect103287-3"
+         width="16.251354"
+         height="13.448972"
+         x="130.3812"
+         y="141.70708" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="49.405766"
+         y="151.16782"
+         id="text2498-3-7"><tspan
+           sodipodi:role="line"
+           id="tspan2496-6-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+           x="49.405766"
+           y="151.16782">I went there by bike</tspan></text>
+    </g>
+  </g>
+</svg>

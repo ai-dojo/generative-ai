@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480" font-family="Helvetica, Arial, sans-serif">
+  <rect width="800" height="480" fill="#FFFFFF"/>
+  <text x="400.0" y="40" font-size="22" font-weight="bold" fill="#2F3E46" text-anchor="middle">One language model, many tasks</text>
+  <text x="400.0" y="66" font-size="14" fill="#7A7D80" text-anchor="middle">The task is described in the prompt, often with a few examples, and needs no task-specific training</text>
+  <circle cx="26" cy="107" r="6" fill="#6CA0A3"/>
+  <text x="40" y="112" font-size="15" font-weight="bold" fill="#2F3E46">Understand &amp; analyze</text>
+  <rect x="20.0" y="124" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="29.0" y="136" width="4" height="58" rx="2" fill="#6CA0A3"/>
+  <text x="41.0" y="153" font-size="14" font-weight="bold" fill="#2F3E46">Q&amp;A</text>
+  <text x="41.0" y="174" font-size="12.5" fill="#403931">Answer questions</text>
+  <text x="41.0" y="191" font-size="12.5" fill="#403931">about a given text</text>
+  <rect x="213.0" y="124" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="222.0" y="136" width="4" height="58" rx="2" fill="#6CA0A3"/>
+  <text x="234.0" y="153" font-size="14" font-weight="bold" fill="#2F3E46">Classification</text>
+  <text x="234.0" y="174" font-size="12.5" fill="#403931">Sort texts into</text>
+  <text x="234.0" y="191" font-size="12.5" fill="#403931">categories</text>
+  <rect x="406.0" y="124" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="415.0" y="136" width="4" height="58" rx="2" fill="#6CA0A3"/>
+  <text x="427.0" y="153" font-size="14" font-weight="bold" fill="#2F3E46">Keyword extraction</text>
+  <text x="427.0" y="174" font-size="12.5" fill="#403931">Pull out the key</text>
+  <text x="427.0" y="191" font-size="12.5" fill="#403931">terms of a text</text>
+  <rect x="599.0" y="124" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="608.0" y="136" width="4" height="58" rx="2" fill="#6CA0A3"/>
+  <text x="620.0" y="153" font-size="14" font-weight="bold" fill="#2F3E46">Code explanation</text>
+  <text x="620.0" y="174" font-size="12.5" fill="#403931">Explain what a piece</text>
+  <text x="620.0" y="191" font-size="12.5" fill="#403931">of code does</text>
+  <circle cx="26" cy="231" r="6" fill="#F2B66D"/>
+  <text x="40" y="236" font-size="15" font-weight="bold" fill="#2F3E46">Transform</text>
+  <rect x="20.0" y="248" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="29.0" y="260" width="4" height="58" rx="2" fill="#F2B66D"/>
+  <text x="41.0" y="277" font-size="14" font-weight="bold" fill="#2F3E46">Summarize</text>
+  <text x="41.0" y="298" font-size="12.5" fill="#403931">Condense a long text</text>
+  <text x="41.0" y="315" font-size="12.5" fill="#403931">into a few sentences</text>
+  <rect x="213.0" y="248" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="222.0" y="260" width="4" height="58" rx="2" fill="#F2B66D"/>
+  <text x="234.0" y="277" font-size="14" font-weight="bold" fill="#2F3E46">Translate</text>
+  <text x="234.0" y="298" font-size="12.5" fill="#403931">Between languages,</text>
+  <text x="234.0" y="315" font-size="12.5" fill="#403931">e.g. English → French</text>
+  <rect x="406.0" y="248" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="415.0" y="260" width="4" height="58" rx="2" fill="#F2B66D"/>
+  <text x="427.0" y="277" font-size="14" font-weight="bold" fill="#2F3E46">Grammar correction</text>
+  <text x="427.0" y="298" font-size="12.5" fill="#403931">Fix spelling and</text>
+  <text x="427.0" y="315" font-size="12.5" fill="#403931">grammar mistakes</text>
+  <rect x="599.0" y="248" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="608.0" y="260" width="4" height="58" rx="2" fill="#F2B66D"/>
+  <text x="620.0" y="277" font-size="14" font-weight="bold" fill="#2F3E46">Text to SQL</text>
+  <text x="620.0" y="298" font-size="12.5" fill="#403931">Turn a question into</text>
+  <text x="620.0" y="315" font-size="12.5" fill="#403931">a database query</text>
+  <circle cx="26" cy="355" r="6" fill="#E3584D"/>
+  <text x="40" y="360" font-size="15" font-weight="bold" fill="#2F3E46">Generate</text>
+  <rect x="20.0" y="372" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="29.0" y="384" width="4" height="58" rx="2" fill="#E3584D"/>
+  <text x="41.0" y="401" font-size="14" font-weight="bold" fill="#2F3E46">Chat</text>
+  <text x="41.0" y="422" font-size="12.5" fill="#403931">Hold an open-ended</text>
+  <text x="41.0" y="439" font-size="12.5" fill="#403931">conversation</text>
+  <rect x="213.0" y="372" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="222.0" y="384" width="4" height="58" rx="2" fill="#E3584D"/>
+  <text x="234.0" y="401" font-size="14" font-weight="bold" fill="#2F3E46">Brainstorming</text>
+  <text x="234.0" y="422" font-size="12.5" fill="#403931">Suggest ideas,</text>
+  <text x="234.0" y="439" font-size="12.5" fill="#403931">names and slogans</text>
+  <rect x="406.0" y="372" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="415.0" y="384" width="4" height="58" rx="2" fill="#E3584D"/>
+  <text x="427.0" y="401" font-size="14" font-weight="bold" fill="#2F3E46">Product descriptions</text>
+  <text x="427.0" y="422" font-size="12.5" fill="#403931">Write marketing copy</text>
+  <text x="427.0" y="439" font-size="12.5" fill="#403931">from a list of features</text>
+  <rect x="599.0" y="372" width="181.0" height="82" rx="8" fill="#F0F0F0" stroke="#D0C1A5" stroke-width="1.2"/>
+  <rect x="608.0" y="384" width="4" height="58" rx="2" fill="#E3584D"/>
+  <text x="620.0" y="401" font-size="14" font-weight="bold" fill="#2F3E46">Text to emoji</text>
+  <text x="620.0" y="422" font-size="12.5" fill="#403931">Turn a movie title</text>
+  <text x="620.0" y="439" font-size="12.5" fill="#403931">into emoji</text>
+</svg>

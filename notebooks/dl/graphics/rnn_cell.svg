@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#403931"/>
+    </marker>
+  </defs>
+  <rect width="800" height="480" fill="#FFFFFF"/>
+
+  <!-- cell body -->
+  <rect x="180" y="170" width="440" height="160" rx="16" fill="#F0F0F0" stroke="#2F3E46" stroke-width="2"/>
+  <text x="196" y="194" font-size="14" font-weight="bold" fill="#7A7D80">RNN cell</text>
+
+  <!-- paths -->
+  <g fill="none" stroke="#403931" stroke-width="2">
+    <line x1="40" y1="260" x2="243" y2="260" marker-end="url(#a)"/>
+    <line x1="270" y1="420" x2="270" y2="276" marker-end="url(#a)"/>
+    <line x1="295" y1="260" x2="358" y2="260" marker-end="url(#a)"/>
+    <line x1="460" y1="260" x2="772" y2="260" marker-end="url(#a)"/>
+    <line x1="540" y1="260" x2="540" y2="26" marker-end="url(#a)"/>
+  </g>
+  <circle cx="540" cy="260" r="5" fill="#403931"/>
+
+  <!-- concat -->
+  <rect x="245" y="246" width="50" height="28" rx="5" fill="#D0C1A5" stroke="#403931" stroke-width="2"/>
+  <text x="270" y="264" font-size="11" fill="#403931" text-anchor="middle">concat</text>
+
+  <!-- tanh layer -->
+  <rect x="360" y="237" width="100" height="46" rx="6" fill="#F2B66D" stroke="#2F3E46" stroke-width="2"/>
+  <text x="410" y="259" font-size="16" font-weight="bold" fill="#403931" text-anchor="middle">tanh</text>
+  <text x="410" y="276" font-size="11" fill="#403931" text-anchor="middle">layer (W, b)</text>
+
+  <!-- external labels -->
+  <g font-size="18" font-style="italic" fill="#2F3E46">
+    <text x="40" y="248">h<tspan dy="5" font-size="13">t−1</tspan></text>
+    <text x="772" y="248" text-anchor="end">h<tspan dy="5" font-size="13">t</tspan></text>
+    <text x="556" y="38">h<tspan dy="5" font-size="13">t</tspan></text>
+    <text x="270" y="442" text-anchor="middle">x<tspan dy="5" font-size="13">t</tspan></text>
+  </g>
+  <g font-size="12" fill="#7A7D80">
+    <text x="40" y="282">previous</text>
+    <text x="40" y="297">hidden state</text>
+    <text x="772" y="282" text-anchor="end">next step</text>
+    <text x="556" y="58">output</text>
+    <text x="270" y="464" text-anchor="middle">input</text>
+  </g>
+
+  <!-- formula and note -->
+  <text x="380" y="398" font-size="18" fill="#2F3E46"><tspan font-style="italic">h</tspan><tspan dy="5" font-size="13" font-style="italic">t</tspan><tspan dy="-5" dx="6">=</tspan><tspan dx="6">tanh( W · [</tspan><tspan font-style="italic">h</tspan><tspan dy="5" font-size="13" font-style="italic">t−1</tspan><tspan dy="-5">,</tspan><tspan dx="5" font-style="italic">x</tspan><tspan dy="5" font-size="13" font-style="italic">t</tspan><tspan dy="-5" dx="1">]</tspan><tspan dx="5">+</tspan><tspan dx="5">b )</tspan></text>
+  <text x="380" y="428" font-size="13" fill="#7A7D80">the same weights W and bias b are reused at every time step</text>
+</svg>

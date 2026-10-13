@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration (may contain API keys)
+.env
+
+# Models downloaded by the notebooks
+notebooks/models/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
